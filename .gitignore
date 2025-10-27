@@ -1,0 +1,64 @@
+# Node modules (both frontend and backend)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build / Output directories
+dist/
+frontend/dist/
+backend/dist/
+build/
+frontend/build/
+backend/build/
+
+# Environment variables
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+# System / OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# PostgreSQL dump / data files
+*.dump
+
+# Test coverage / reports
+coverage/
+*.lcov
+
+# Local environment cache
+npm-cache/
+yarn-cache/
+.pnpm-store/
+
+# Misc
+package-lock.json
+frontend/package-lock.json
+backend/package-lock.json
