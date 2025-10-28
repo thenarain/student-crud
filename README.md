@@ -10,6 +10,14 @@ This project is a full-stack CRUD application for managing student/member data. 
 
 ---
 
+## Live Deployment
+
+The project is fully deployed and accessible online:
+
+👉 Live Application: https://student-crud-git-main-kartikays-projects-4021e952.vercel.app/
+
+---
+
 ## Features
 
 ### Frontend (React + Bootstrap)
