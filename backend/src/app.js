@@ -4,14 +4,7 @@ import studentRoutes from "./routes/studentRoutes.js";
 
 const app = express();
 
-app.use(
-  cors(
-    cors({
-      origin: ["https://student-crud-six.vercel.app", "http://localhost:5173"],
-      methods: ["GET", "POST", "PUT", "DELETE"],
-    })
-  )
-);
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
